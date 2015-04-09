@@ -1,6 +1,8 @@
 #ifndef JOUEUR_H
 #define JOUEUR_H
 #include <string>
+#include <queue>
+#include <Carte.h>
 
 class Joueur
 {
@@ -27,10 +29,11 @@ public:
 
 private:
 	//Les attributs en privé, parce que bidouilleurs
-	std::string m_mail;
+	std::string m_mail;					
 	std::string m_pseudo;
 	std::string m_mdp;
-	int m_cash;
+	int m_cash;						// contient la totalité de l'argent qu'a le joueur
+	queue<Carte> lesCartes;			// contient les cartes  du joueurs
 };
 
 #endif // JOUEUR_H
