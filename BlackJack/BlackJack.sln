@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlackJack", "BlackJack", "{A81BE257-E731-485E-BEA2-209E41AB8F58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJack.Shared", "BlackJack\BlackJack.Shared\BlackJack.Shared.vcxitems", "{A2303447-17C9-4B0F-9DE2-DB0673ECC3A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJack.Windows", "BlackJack\BlackJack.Windows\BlackJack.Windows.vcxproj", "{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJack.WindowsPhone", "BlackJack\BlackJack.WindowsPhone\BlackJack.WindowsPhone.vcxproj", "{E7C9F02D-895D-47DF-A695-E1EF77365882}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BlackJack\BlackJack.Shared\BlackJack.Shared.vcxitems*{e7c9f02d-895d-47df-a695-e1ef77365882}*SharedItemsImports = 4
+		BlackJack\BlackJack.Shared\BlackJack.Shared.vcxitems*{b7660a9b-f629-4564-b3aa-10e5b9fe77f4}*SharedItemsImports = 4
+		BlackJack\BlackJack.Shared\BlackJack.Shared.vcxitems*{a2303447-17c9-4b0f-9de2-db0673ecc3a8}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|ARM.Build.0 = Debug|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|Win32.Build.0 = Debug|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|Win32.Deploy.0 = Debug|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|x64.ActiveCfg = Debug|x64
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|x64.Build.0 = Debug|x64
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Debug|x64.Deploy.0 = Debug|x64
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|ARM.ActiveCfg = Release|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|ARM.Build.0 = Release|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|ARM.Deploy.0 = Release|ARM
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|Win32.ActiveCfg = Release|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|Win32.Build.0 = Release|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|Win32.Deploy.0 = Release|Win32
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|x64.ActiveCfg = Release|x64
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|x64.Build.0 = Release|x64
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4}.Release|x64.Deploy.0 = Release|x64
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|ARM.Build.0 = Debug|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|Win32.Build.0 = Debug|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|Win32.Deploy.0 = Debug|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Debug|x64.ActiveCfg = Debug|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|ARM.ActiveCfg = Release|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|ARM.Build.0 = Release|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|ARM.Deploy.0 = Release|ARM
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|Win32.ActiveCfg = Release|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|Win32.Build.0 = Release|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|Win32.Deploy.0 = Release|Win32
+		{E7C9F02D-895D-47DF-A695-E1EF77365882}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2303447-17C9-4B0F-9DE2-DB0673ECC3A8} = {A81BE257-E731-485E-BEA2-209E41AB8F58}
+		{B7660A9B-F629-4564-B3AA-10E5B9FE77F4} = {A81BE257-E731-485E-BEA2-209E41AB8F58}
+		{E7C9F02D-895D-47DF-A695-E1EF77365882} = {A81BE257-E731-485E-BEA2-209E41AB8F58}
+	EndGlobalSection
+EndGlobal
