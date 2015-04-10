@@ -3,6 +3,7 @@
 #include <string>
 #include <queue>
 #include <Joueur.h>
+#include <list>
 
 class Table
 {
@@ -15,7 +16,8 @@ public:
 private:
 
 	std::queue<Joueur> listeJoueur;				//liste des joueurs présent sur la table
-	std::queue<Carte> jeuxCarte;				//liste contenant toutes les cartes
+	std::queue<Carte> paquet;					//liste contenant toutes les cartes mélanger
+	std::list<Carte> jeuxCarte;					//liste contenant toutes les cartes
 
 };
 
