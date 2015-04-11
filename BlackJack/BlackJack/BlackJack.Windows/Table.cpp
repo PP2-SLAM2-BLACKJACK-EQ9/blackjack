@@ -11,23 +11,23 @@ Table::Table(){
 
 //parametre i : compteur pour selectionner le bon joueur
 void Table::distribution(int i){
-	Carte carte = paquet.front();			//rÃ©cupÃ¨re la premiere carte au dessus du paquet
+	Carte carte = paquet.front();			//récupère la premiere carte au dessus du paquet
 	listeJoueur.get(i).setCarte(carte);		//attribut la carte au joueur
-	paquet.pop();							//enleve la carte selectionnÃ©z du paquet
+	paquet.pop();							//enleve la carte selectionnéz du paquet
 }
 
 void Table::melange(){
-	//312 cartes a triÃ© si 6 jeux de carte selectionnÃ©e
+	//312 cartes a trié si 6 jeux de carte selectionnée
 	int i;							//compteur
-	int random;						//valeur random gÃ©nÃ©rÃ© servant d'index
+	int random;						//valeur random généré servant d'index
 	int nbCarte = jeuxCarte.size;	// contient le nombre de carte restant
 
 	for (i = 0; i < jeuxCarte.size; i++){
 
-		//sensÃ© trouver un nombre entre 0 et nbCarte
+		//sensé trouver un nombre entre 0 et nbCarte
 		random = rand() % nbCarte + 0;	
 
-		// extraire la carte de jeuxCarte Ã  l'index random et la mettre dans la queue paquet
+		// extraire la carte de jeuxCarte à l'index random et la mettre dans la queue paquet
 		
 		
 	}

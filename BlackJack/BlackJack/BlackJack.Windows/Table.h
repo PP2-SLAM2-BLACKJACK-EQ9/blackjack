@@ -11,12 +11,12 @@ public:
 
 	Table();									// constructeur
 	void distribution(int i);						//methode pour distribuer 1 carte
-	void melange();								//methode qui trira dans un ordre alÃ©atoire les cartes
+	void melange();								//methode qui trira dans un ordre aléatoire les cartes
 
 private:
 
-	std::queue<Joueur> listeJoueur;				//liste des joueurs prÃ©sent sur la table
-	std::queue<Carte> paquet;					//liste contenant toutes les cartes mÃ©langer
+	std::queue<Joueur> listeJoueur;				//liste des joueurs présent sur la table
+	std::queue<Carte> paquet;					//liste contenant toutes les cartes mélanger
 	std::array<Carte> jeuxCarte;					//liste contenant toutes les cartes
 
 };
