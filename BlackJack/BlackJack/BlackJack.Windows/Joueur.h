@@ -2,7 +2,7 @@
 #define JOUEUR_H
 #include <string>
 #include <queue>
-#include <Carte.h>
+#include "Carte.h"
 
 class Joueur
 {

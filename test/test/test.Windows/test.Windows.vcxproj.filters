@@ -2,11 +2,11 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Assets">
-      <UniqueIdentifier>{abdc783a-d169-4898-88ec-1dbeef9cb8d3}</UniqueIdentifier>
+      <UniqueIdentifier>{335877e5-3b65-4f70-bf92-bc19e7e70c4a}</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-    <Filter Include="Metier">
-      <UniqueIdentifier>{53de493e-f166-489e-818a-7a89d0b4a074}</UniqueIdentifier>
+    <Filter Include="test">
+      <UniqueIdentifier>{1758bf92-6609-4c44-934c-d9304df10f6a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -14,33 +14,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="Joueur.cpp">
-      <Filter>Metier</Filter>
-    </ClCompile>
-    <ClCompile Include="Table.cpp">
-      <Filter>Metier</Filter>
-    </ClCompile>
     <ClCompile Include="test.cpp">
-      <Filter>Metier</Filter>
+      <Filter>test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainPage.xaml.h" />
-    <ClInclude Include="Joueur.h">
-      <Filter>Metier</Filter>
-    </ClInclude>
-    <ClInclude Include="Carte.h">
-      <Filter>Metier</Filter>
-    </ClInclude>
-    <ClInclude Include="Table.h">
-      <Filter>Metier</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="BlackJack.Windows_TemporaryKey.pfx" />
+    <None Include="test.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Logo.scale-100.png">
