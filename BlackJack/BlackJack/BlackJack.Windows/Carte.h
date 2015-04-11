@@ -11,8 +11,8 @@ public:
 
 private:
 	int m_valeur;			// contient le nb de point de la carte
-	int figure;				// 0:carré, 1:pique, 2:coeur, 3:trèfle
-	std::string nom;		// as,2...10,valet,dame,roi
+	int figure;				// 0:carrÃ©, 1:pique, 2:coeur, 3:trÃ¨fle
+	std::string nom;		// 
 
 };
 

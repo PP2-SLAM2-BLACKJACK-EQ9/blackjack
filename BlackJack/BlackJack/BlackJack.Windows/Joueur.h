@@ -10,10 +10,10 @@ public:
 	//init du constructeur
 	Joueur();
 
-	//la même pour la banque en overstack
+	//la mÃªme pour la banque en overstack
 	Joueur(std::string mail, std::string pseudo, std::string mdp);
 
-	//Accès (exemples)
+	//AccÃ¨s (exemples)
 	void setName(std::string m_pseudo);
 	void setMdp(std::string m_mdp);
 	void setCash(int m_cash);
@@ -23,18 +23,17 @@ public:
 
 	//Pas de Send et -w pour le moment
 
-	//Décla pour après
+	//DÃ©cla pour aprÃ¨s
 	void saisie();
 	void affiche();
 
 private:
-	//Les attributs en privé, parce que bidouilleurs
+	//Les attributs en privÃ©, parce que bidouilleurs
 	std::string m_mail;					
 	std::string m_pseudo;
 	std::string m_mdp;
-	int m_cash;						// contient la totalité de l'argent qu'a le joueur
+	int m_cash;						// contient la totalitÃ© de l'argent qu'a le joueur
 	queue<Carte> lesCartes;			// contient les cartes  du joueurs
-	 
 };
 
 #endif // JOUEUR_H
