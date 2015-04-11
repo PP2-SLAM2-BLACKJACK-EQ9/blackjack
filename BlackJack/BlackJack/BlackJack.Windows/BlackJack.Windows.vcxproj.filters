@@ -20,9 +20,6 @@
     <ClCompile Include="Table.cpp">
       <Filter>Metier</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>Metier</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainPage.xaml.h" />

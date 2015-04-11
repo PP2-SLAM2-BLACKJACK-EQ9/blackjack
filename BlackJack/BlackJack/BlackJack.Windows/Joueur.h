@@ -34,6 +34,7 @@ private:
 	std::string m_mdp;
 	int m_cash;						// contient la totalité de l'argent qu'a le joueur
 	queue<Carte> lesCartes;			// contient les cartes  du joueurs
+	 
 };
 
 #endif // JOUEUR_H
