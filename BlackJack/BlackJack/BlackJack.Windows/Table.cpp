@@ -9,11 +9,11 @@ Table::Table(){
 	//paquet 
 }
 
-//paramettre i : compteur pour selectionner le bon joueur
+//parametre i : compteur pour selectionner le bon joueur
 void Table::distribution(int i){
 	Carte carte = paquet.front();			//récupère la premiere carte au dessus du paquet
 	listeJoueur.get(i).setCarte(carte);		//attribut la carte au joueur
-	paquet.pop();							//enleve la carte selectionné du paquet
+	paquet.pop();							//enleve la carte selectionnéz du paquet
 }
 
 void Table::melange(){
