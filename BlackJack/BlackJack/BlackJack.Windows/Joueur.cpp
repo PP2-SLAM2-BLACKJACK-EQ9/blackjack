@@ -7,7 +7,7 @@ using namespace std;
 //Pour la banque en overstack ?
 Joueur::Joueur(std::string mail, std::string pseudo, std::string mdp) : m_mail(mail), m_pseudo(pseudo), m_mdp(mdp), m_cash(1000)
 {
-	//zone qui sert à rien
+	//zone qui sert Ã  rien
 }
 
 //verification sur le cash
