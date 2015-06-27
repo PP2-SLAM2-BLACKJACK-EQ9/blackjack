@@ -6,14 +6,14 @@ class Carte
 {
 public:
 
-	Carte();				// constructeur
+    Carte();				// constructeur
 
 
 private:
     int m_valeur;			// contient le nb de point de la carte
-	int figure;				// 0:carré, 1:pique, 2:coeur, 3:trefle
-    std::string nom;		// as,2...10,valet,dame,roi
+    int figure;				// 0:carré, 1:pique, 2:coeur, 3:trefle
+
 
 };
 
-#endif
+#endif //CARTE_H
